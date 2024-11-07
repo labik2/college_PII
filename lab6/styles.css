@@ -1,0 +1,91 @@
+body {
+    font-size: 1.6rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link, a:visited {
+    color: #0076A8;
+    transition: color 0.5s ease-out;
+}
+
+a:hover, a:active {
+    color: #00A1E4;
+}
+
+
+#hero {
+    position: relative;
+    background: rgb(46,49,146);
+    background-position: center center !important;
+    width: 100% !important;
+    background-size: cover !important;
+    min-height: 200px;
+}
+
+#hero .container {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+#hero h2 {
+    text-align: center;
+    margin: 0 0 2.4rem 0;
+    font-size: 2.2rem;
+}
+
+.shadow {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: linear-gradient(to bottom, rgba(46,49,146,0), rgba(46,49,146,1));
+    min-height: 120px;
+}
+
+#hero a:link, #hero a:visited {
+    color: #fff;
+    transition: color 3s ease-out;
+}
+
+#hero a:hover, #hero a:active {
+    color: #00A1E4;
+}
+
+
+#block-lpnushortcutstop4 {
+    background: rgb(46,49,146);
+}
+
+#block-lpnushortcutstop4 .col-xs-6 {
+    position: relative;
+    min-height: 104px;
+}
+
+#block-lpnushortcutstop4 h2 {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.shortcut-1, .shortcut-4 {
+    background: #252775;
+}
+
+#block-lpnushortcutstop4 a:link, #block-lpnushortcutstop4 a:visited {
+    color: #fff;
+    transition: color 3s ease-out;
+}
+
+#block-lpnushortcutstop4 a:hover, #block-lpnushortcutstop4 a:active {
+    color: #00A1E4;
+}
